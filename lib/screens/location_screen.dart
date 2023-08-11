@@ -29,7 +29,7 @@ class _LocationScreenState extends State<LocationScreen> {
   void updateUI(dynamic weatherData) {
     setState(() {
 
-      if (weatherData.isNull) {
+      if (weatherData == null) {
         print('Ooops, no weather data!');
         // display some error page or alert!
         return;
