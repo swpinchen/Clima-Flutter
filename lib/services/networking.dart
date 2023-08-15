@@ -1,7 +1,7 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-String apiKey = '5b1b4192096f88a96749ccac244ece9c';
+String apiKey = '';
 
 class NetworkHelper {
   NetworkHelper({this.latitude, this.longitude, this.cityName});
